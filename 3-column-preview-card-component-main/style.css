@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.main_container {
+  margin: 150px;
+  padding: 0px 75px;
+  border: hsl(0, 0%, 95%);
+  display: flex;
+}
+
+.box_1 {
+  background: hsl(31, 77%, 52%);
+  padding: 50px;
+  color: white;
+  border-radius: 20px 0px 0px 20px;
+  width: 500px;
+}
+
+.box_1 > img {
+  background: hsl(31, 77%, 52%);
+}
+
+.box_1 > .text {
+  background: hsl(31, 77%, 52%);
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.box_1 > .text > h1 {
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  padding: 20px 0px;
+}
+
+.box_1 > .text > h3 {
+  background: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  padding: 20px 0px;
+  text-align: center;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.box_1 > .text > p {
+  background: hsl(31, 77%, 52%);
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 20px 0px 60px 0px;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.box_1 > .text > h3:hover {
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.box_2 {
+  background: hsl(184, 100%, 22%);
+  padding: 50px;
+  color: white;
+  width: 500px;
+}
+
+.box_2 > img {
+  background: hsl(184, 100%, 22%);
+}
+
+.box_2 > .text {
+  background: hsl(184, 100%, 22%);
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.box_2 > .text > h1 {
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  padding: 20px 0px;
+}
+
+.box_2 > .text > h3 {
+  background: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  padding: 20px 0px;
+  text-align: center;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.box_2 > .text > p {
+  background: hsl(184, 100%, 22%);
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 20px 0px 60px 0px;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.box_2 > .text > h3:hover {
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.box_3 {
+  background: hsl(179, 100%, 13%);
+  padding: 50px;
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+  width: 500px;
+}
+
+.box_3 > img {
+  background: hsl(179, 100%, 13%);
+}
+
+.box_3 > .text {
+  background: hsl(179, 100%, 13%);
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.box_3 > .text > h1 {
+  background: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  padding: 20px 0px;
+}
+
+.box_3 > .text > h3 {
+  background: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  padding: 20px 0px;
+  text-align: center;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.box_3 > .text > p {
+  background: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 20px 0px 60px 0px;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.box_3 > .text > h3:hover {
+  background: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+  .main_container {
+    display: inline-block;
+  }
+
+  .box_1 {
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .box_3 {
+    border-radius: 0px 0px 20px 20px;
+  }
+}
